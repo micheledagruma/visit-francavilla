@@ -33,7 +33,7 @@
             </div><!-- panel-home -->
 
             <!-- header-home -->
-            <div data-role="header" data-position-fixed="true">
+            <div data-role="header" data-position="fixed">
                 <a href="#panel-home" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
                 <h1>Home</h1>
             </div><!-- header-home -->
@@ -56,7 +56,7 @@
             </div>
 
             <!-- footer-home -->
-            <div data-role="footer" data-position-fixed="true">
+            <div data-role="footer" >
                 <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-home -->
 
@@ -80,7 +80,7 @@
             </div><!-- panel-laCitta -->
 
             <!-- header-laCitta -->
-            <div data-role="header" data-position-fixed="true">
+            <div data-role="header" data-position="fixed">
                 <a href="#panel-laCitta" data-transition="slidefade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
                 <h1>Header la città</h1>
             </div><!-- header-laCitta -->
@@ -90,7 +90,7 @@
             </div>
 
             <!-- footer-laCitta -->
-            <div data-role="footer" data-position-fixed="true">
+            <div data-role="footer">
                 <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-laCitta -->
 
@@ -114,7 +114,7 @@
             </div><!-- panel-itinerari -->
 
             <!-- header-itinerari -->
-            <div data-role="header" data-position-fixed="true">
+            <div data-role="header" data-position="fixed">
                 <a href="#panel-itinerari" data-transition="slidefade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
                 <h1>Itinerari di viaggio</h1>
             </div><!-- header-itinerari -->
@@ -124,7 +124,7 @@
             </div>
 
             <!-- footer-itinerari -->
-            <div data-role="footer" data-position-fixed="true">
+            <div data-role="footer" >
                 <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-itinerari -->
 
@@ -148,7 +148,7 @@
             </div><!-- panel-mappa -->
 
             <!-- header-mappa -->
-            <div data-role="header" data-position-fixed="true">
+            <div data-role="header" data-position="fixed">
                 <a href="#panel-mappa" data-transition="slidefade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
                 <h1>Header mappa</h1>
             </div><!-- header-mappa -->
@@ -158,7 +158,7 @@
             </div>
 
             <!-- footer-mappa -->
-            <div data-role="footer" data-position-fixed="true">
+            <div data-role="footer">
                 <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-mappa -->
 
@@ -182,7 +182,7 @@
             </div><!-- panel-gallery -->
 
             <!-- header-gallery -->
-            <div data-role="header" data-position-fixed="true">
+            <div data-role="header" data-position="fixed">
                 <a href="#panel-gallery" data-transition="slidefade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
                 <h1>Header gallery</h1>
             </div><!-- header-gallery -->
@@ -192,7 +192,7 @@
             </div>
 
             <!-- footer-gallery -->
-            <div data-role="footer" data-position-fixed="true">
+            <div data-role="footer">
                 <h1>&copy; Michele D'Agruma 2017</h1>
             </div><!-- footer-gallery -->
 
@@ -216,7 +216,7 @@
             </div><!-- panel-contatti -->
 
             <!-- header-contatti -->
-            <div data-role="header" data-position-fixed="true">
+            <div data-role="header" data-position="fixed">
                 <a href="#panel-contatti" data-transition="slidefade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
                 <h1>Header contatti</h1>
             </div><!-- header-contatti -->
@@ -226,14 +226,15 @@
             </div>
 
             <!-- footer-contatti -->
-            <div data-role="footer" data-position-fixed="true">
+            <div data-role="footer">
+
                 <h1>&copy; Michele D'Agruma 2017</h1>
             </div><!-- footer-contatti -->
 
         </div> <!-- CONTATTI -->
 
         <!-- UTILITY -->
-        <div data-role="page" id="utility" class="my-page" data-url="demo-page">
+        <div data-role="page" id="utility">
 
             <!-- panel-utility -->
             <div data-role="panel" id="panel-utility" data-display="overlay" data-position-fixed="true">
@@ -250,114 +251,93 @@
             </div><!-- panel-utility -->
 
             <!-- header-utility -->
-            <div data-role="header" data-position-fixed="true">
+            <div data-role="header" data-position="fixed">
                 <a href="#panel-utility" data-transition="slidefade" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Menu</a>
                 <h1>Come arrivare</h1>
             </div><!-- header-utility -->
 
             <div data-role="main" class="ui-content">
-
-            <ul data-role="listview" data-inset="true">
-              <li>
-                <a href="#popup1" data-rel="popup" data-transition="pop">IN AUTO
-                  <div data-role="popup" id="popup1">
-                    <p>
-                      ofjoasjfoasjofaj
-                    </p>
-                  </div>
-                </a>
-              </li>
-              <li><a href="#popup2" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">IN AUTOBUS</a></li>
-              <li><a href="#popup3" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">IN TRENO</a></li>
-              <li><a href="#popup4" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">IN AEREO</a></li>
-
-
-            </ul>
-
-            <a href="#popup5" data-rel="popup" data-transition="pop">IN AUTO</a>
-            <div data-role="popup" id="popup5">
-              <p>
-                ofjoasjfoasjofaj
-              </p>
-            </div>
-            <script>
-            $( "#popup5" ).popup( "open" )
-
-            </script>
-
-
-
-
-
-
-
-
-
-
-                <h1>Come arrivare</h1>
-                <p><strong>IN AUTO</strong></p>
+              <div data-role="collapsibleset" data-inset="true" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d" data-iconpos="right">
+                <div data-role="collapsible">
+                <h3>IN AUTO</h3>
                 <p><strong>Da Nord e da Sud</strong>
-                  <br>
-                  Dall'autostrada Adriatica A14 (da nord: in direzione di Ancona; da sud: in direzione Pescara), uscire a Pescara Sud-Francavilla al Mare, proseguire sulla SP 23 in direzione di Francavilla.
+                <br>
+                Dall'autostrada Adriatica A14 (da nord: in direzione di Ancona; da sud: in direzione Pescara), uscire a Pescara Sud-Francavilla al Mare, proseguire sulla SP 23 in direzione di Francavilla.
                 </p>
                 <br>
                 <p><strong>Da Chieti</strong>
-                  <br>
-                  Prendere la SS 81 e proseguire sulla SS 16 in direzione di Francavilla.
+                <br>
+                Prendere la SS 81 e proseguire sulla SS 16 in direzione di Francavilla.
                 </p>
                 <br>
                 <p><strong>Da Pescara</strong>
-                  <br>
-                  Percorrere la SS 16 in direzione Chieti/Francavilla.
-                  <br>
-                  <br>
-                </p>
-                <strong>IN TRENO</strong>
                 <br>
-                <p>La città dispone di una stazione ferroviaria nella quale fermano treni regionali.
-                  In alternativa si può raggiungere la stazione ferroviaria di Pescara distante circa 9 km. Da Pescara è possibile proseguire sino a&nbsp;Francavilla al mare con autobus di linea.
-                  <br>
-                  Per consultare gli orari dei treni visitare il sito web delle Ferrovie dello Stato
-                  <a href="http://www.ferroviedellostato.it">www.ferroviedellostato.it</a>.
+                Percorrere la SS 16 in direzione Chieti/Francavilla.
                 </p>
-                <br>
-                <strong>IN AUTOBUS</strong>
-                <p>
-                  Autolinee Arpa (Autolinee Regionali Pubbliche Abruzzesi)<br>
-                  Sito web: <a href="http://www.arpaonline.it">www.arpaonline.it</a>
-                </p>
+                </div>
+                <div data-role="collapsible">
+                  <h3>IN TRENO</h3>
+                  <p>La città dispone di una stazione ferroviaria nella quale fermano treni regionali.
+                    In alternativa si può raggiungere la stazione ferroviaria di Pescara distante circa 9 km. Da Pescara è possibile proseguire sino a&nbsp;Francavilla al mare con autobus di linea.
+                    <br>
+                    Per consultare gli orari dei treni visitare il sito web delle Ferrovie dello Stato
+                    <a href="http://www.ferroviedellostato.it">www.ferroviedellostato.it</a>.
+                  </p>
+                </div>
+                <div data-role="collapsible">
+                  <h3>IN AUTOBUS</h3>
+                  <p>
+                    Autolinee Arpa (Autolinee Regionali Pubbliche Abruzzesi)<br>
+                    Sito web: <a href="http://www.arpaonline.it">www.arpaonline.it</a>
+                  </p>
 
-                <p>Autolinee Sangritana<br>
-                  Sito web: <a href="http://www.sangritana.it">www.sangritana.it</a>
-                </p>
+                  <p>Autolinee Sangritana<br>
+                    Sito web: <a href="http://www.sangritana.it">www.sangritana.it</a>
+                  </p>
 
-                <p>Autolinee Satam (Gruppo La Panoramica)<br>
-                Sito web: <a href="http://www.gruppolapanoramica.it">www.gruppolapanoramica.it</a>
-                </p>
+                  <p>Autolinee Satam (Gruppo La Panoramica)<br>
+                  Sito web: <a href="http://www.gruppolapanoramica.it">www.gruppolapanoramica.it</a>
+                  </p>
 
-                <p>Autolinee Di Fonzo<br>
-                Sito web: <a href="http://www.difonzoviaggi.it">www.difonzoviaggi.it</a>
-                </p>
+                  <p>Autolinee Di Fonzo<br>
+                  Sito web: <a href="http://www.difonzoviaggi.it">www.difonzoviaggi.it</a>
+                  </p>
 
-                <p>Autolinee Di Febo - Capuani <br>
-                Sito web: <a href="http://www.difebocapuani.com">www.difebocapuani.com</a>
-                </p>
-
-                <p>
-                  <br>
-                  <strong>IN AEREO</strong>
-                  <br>
-                  <br>
-                  Aeroporto di Pescara (10 km circa)<br>
-                  Aeroporto Ancona (164 km circa)
-                </p>
+                  <p>Autolinee Di Febo - Capuani <br>
+                  Sito web: <a href="http://www.difebocapuani.com">www.difebocapuani.com</a>
+                  </p>
+                </div>
+                <div data-role="collapsible">
+                  <h3>IN AEREO</h3>
+                  <p>
+                    Aeroporto di Pescara (10 km circa)<br>
+                    Aeroporto Ancona (164 km circa)
+                  </p>
+                </div>
+              </div>
             </div>
 
+
+
+
+
+
+
+
+
+
+
             <!-- footer-utility -->
-            <div data-role="footer" data-position-fixed="true">
+            <div data-role="footer" data-position="fixed">
+              <div>
+                <p>seguici su:</p>
+                <a href="#"><img src="img/facebook.png"></a>
+                <a href="#"><img src="img/facebook.png"></a>
+                <a href="#"><img src="img/facebook.png"></a>
+                <a href="#"><img src="img/facebook.png"></a>
+              </div>
                 <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-utility -->
-
-        </div> <!-- UTILITY -->
+          </div>   <!-- UTILITY -->
     </body>
 </html>
