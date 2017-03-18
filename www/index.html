@@ -40,7 +40,7 @@
 
             <div data-role="main" class="ui-content">
               <h3>Welcome to Francavilla </h3>
-              <img src="img/img-home.png" class="immagine">
+              <img src="img/img-home.jpg" class="immagine">
               <p>Francavilla al Mare è un comune italiano di 25 562 abitanti della provincia di Chieti.
                 Decimo comune d'Abruzzo per numero di abitanti ed importante stazione balneare,
                 è situata a sud di Pescara, con la quale confina e forma un unico agglomerato urbano.
@@ -57,7 +57,7 @@
 
             <!-- footer-home -->
             <div data-role="footer" data-position-fixed="true">
-                <h1>Footer home</h1>
+                <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-home -->
 
         </div> <!-- HOME -->
@@ -91,7 +91,7 @@
 
             <!-- footer-laCitta -->
             <div data-role="footer" data-position-fixed="true">
-                <h1>Footer laCitta</h1>
+                <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-laCitta -->
 
         </div> <!-- LA CITTA' -->
@@ -125,7 +125,7 @@
 
             <!-- footer-itinerari -->
             <div data-role="footer" data-position-fixed="true">
-                <h1>Footer itinerari</h1>
+                <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-itinerari -->
 
         </div> <!-- ITINERARI -->
@@ -159,7 +159,7 @@
 
             <!-- footer-mappa -->
             <div data-role="footer" data-position-fixed="true">
-                <h1>Footer mappa</h1>
+                <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-mappa -->
 
         </div> <!-- MAPPA -->
@@ -193,7 +193,7 @@
 
             <!-- footer-gallery -->
             <div data-role="footer" data-position-fixed="true">
-                <h1>Footer gallery</h1>
+                <h1>&copy; Michele D'Agruma 2017</h1>
             </div><!-- footer-gallery -->
 
         </div> <!-- GALLERY -->
@@ -227,13 +227,13 @@
 
             <!-- footer-contatti -->
             <div data-role="footer" data-position-fixed="true">
-                <h1>Footer Contatti</h1>
+                <h1>&copy; Michele D'Agruma 2017</h1>
             </div><!-- footer-contatti -->
 
         </div> <!-- CONTATTI -->
 
         <!-- UTILITY -->
-        <div data-role="page" id="utility">
+        <div data-role="page" id="utility" class="my-page" data-url="demo-page">
 
             <!-- panel-utility -->
             <div data-role="panel" id="panel-utility" data-display="overlay" data-position-fixed="true">
@@ -256,6 +256,44 @@
             </div><!-- header-utility -->
 
             <div data-role="main" class="ui-content">
+
+            <ul data-role="listview" data-inset="true">
+              <li>
+                <a href="#popup1" data-rel="popup" data-transition="pop">IN AUTO
+                  <div data-role="popup" id="popup1">
+                    <p>
+                      ofjoasjfoasjofaj
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li><a href="#popup2" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">IN AUTOBUS</a></li>
+              <li><a href="#popup3" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">IN TRENO</a></li>
+              <li><a href="#popup4" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="pop">IN AEREO</a></li>
+
+
+            </ul>
+
+            <a href="#popup5" data-rel="popup" data-transition="pop">IN AUTO</a>
+            <div data-role="popup" id="popup5">
+              <p>
+                ofjoasjfoasjofaj
+              </p>
+            </div>
+            <script>
+            $( "#popup5" ).popup( "open" )
+
+            </script>
+
+
+
+
+
+
+
+
+
+
                 <h1>Come arrivare</h1>
                 <p><strong>IN AUTO</strong></p>
                 <p><strong>Da Nord e da Sud</strong>
@@ -317,7 +355,7 @@
 
             <!-- footer-utility -->
             <div data-role="footer" data-position-fixed="true">
-                <h1>Come arrivare</h1>
+                <p>&copy; Michele D'Agruma 2017</p>
             </div><!-- footer-utility -->
 
         </div> <!-- UTILITY -->
