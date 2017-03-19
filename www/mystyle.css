@@ -21,3 +21,49 @@ div.ui-content h3{
 #home p{
   color: white;
 }
+
+.facebook{
+  background-image: url(img/facebook.png);
+  padding: 0;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+
+
+}
+.youtube{
+  background-image: url(img/youtube.png);
+  padding: 0;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+
+
+}
+.instagram{
+  background-image: url(img/instagram.png);
+  padding: 0;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+
+}
+.twitter{
+  background-image: url(img/twitter.png);
+  padding: 0;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+
+}
+
+.firma{
+  font-weight: lighter;
+  font-size: 70%;
+  margin-bottom: 1%;
+  float: left;
+}
+.icone{
+  float: left;
+  margin-left: 40%;
+}
